@@ -1,0 +1,25 @@
+<div class="accordion" id="{{include.type}}Accordion">
+  {% for item in site.data[include.type] %}
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="{{include.type}}Heading{{forloop.index}}">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#collapse{{include.type}}{{forloop.index}}"
+        aria-expanded="false"
+        aria-controls="collapse{{include.type}}{{forloop.index}}"
+      >
+        {{item.name}}
+      </button>
+    </h2>
+    <div
+      id="collapse{{include.type}}{{forloop.index}}"
+      class="accordion-collapse collapse"
+      aria-labelledby="{{include.type}}Heading{{forloop.index}}"
+    >
+      <div class="accordion-body">{{item.description | markdownify}}</div>
+    </div>
+  </div>
+  {% endfor %}
+</div>

@@ -1,6 +1,39 @@
 ---
 layout: default
+title: Cameron Burrows
 ---
+
+## About Me
+
+Dedicated about page?
+
+I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+
+Also bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+
+Finally, bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+
+## Experiences
+
+{% include accordion.html type="experiences" %}
+
+## Projects - https://www.seanhalpin.design/
+
+- Project page 1 (card)
+- Project page 2 (card)
+
+## Skills
+
+- Python
+- Java
+- React
+- Node
+- Express
+
+## Contact
+
+- [burrowscameron310@gmail.com](mailto:burrowscameron310@gmail.com)
 
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
@@ -9,10 +42,6 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 There should be whitespace between paragraphs.
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
 
 ## Header 2
 

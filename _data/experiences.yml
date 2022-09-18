@@ -1,0 +1,16 @@
+- name: Experience one
+  description: |
+    welcome to the slideshow
+    This is an open-source slideshow, built with [deck.js](https://github.com/imakewebthings/deck.js), GitHub and [Jekyll](http://jekyllrb.com).
+
+- name: Experience two
+  description: |
+    Second slide with bullet points
+     * Hello world
+     * This is a slideshow
+
+- name: Experience three
+  description: |
+    Second slide with bullet points
+     * Hello world2
+     * This is a slideshow2
