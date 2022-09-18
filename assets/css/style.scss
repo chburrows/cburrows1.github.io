@@ -3,3 +3,36 @@
 
 @import "{{ site.theme }}";
 // add styles below
+
+.experience:hover {
+  background-color: #f5f5f5;
+}
+.experience h2 {
+  margin-bottom: 0;
+}
+.experience-button.collapsed:hover {
+  background-color: #f5f5f5;
+  animation: pop 0.25s linear;
+}
+
+.project {
+  margin-bottom: 1em;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #f5f5f5;
+    animation: pop 0.25s linear;
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

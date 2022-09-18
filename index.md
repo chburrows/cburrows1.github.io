@@ -18,10 +18,9 @@ Finally, bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh g
 
 {% include accordion.html type="experiences" %}
 
-## Projects - https://www.seanhalpin.design/
+## Projects
 
-- Project page 1 (card)
-- Project page 2 (card)
+{% include projects.html %}
 
 ## Skills
 

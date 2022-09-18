@@ -1,0 +1,19 @@
+<div id="projects">
+  {% for item in site.data.projects %}
+  <div
+    class="card project"
+    onclick="window.location='{{item.link}}'"
+    tabindex="1"
+  >
+    <div class="card-body">
+      <h5 class="card-title">{{item.name}}</h5>
+      <p class="card-text">{{item.description | markdownify}}</p>
+    </div>
+    <img
+      src="/assets/images/projects/{{item.image}}"
+      class="card-img-bottom"
+      alt="{{item.name}} image"
+    />
+  </div>
+  {% endfor %}
+</div>

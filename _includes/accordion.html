@@ -1,9 +1,9 @@
 <div class="accordion" id="{{include.type}}Accordion">
   {% for item in site.data[include.type] %}
-  <div class="accordion-item">
+  <div class="accordion-item experience">
     <h2 class="accordion-header" id="{{include.type}}Heading{{forloop.index}}">
       <button
-        class="accordion-button collapsed"
+        class="accordion-button collapsed experience-button"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#collapse{{include.type}}{{forloop.index}}"
