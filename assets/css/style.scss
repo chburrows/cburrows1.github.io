@@ -1,75 +1,76 @@
 ---
 ---
 
-@import "{{ site.theme }}";
-// add styles below
+html {
+  @import "{{ site.theme }}";
 
-.navbar-custom {
-  z-index: 100;
-  padding: 8px 0;
+  .navbar-custom {
+    z-index: 100;
+    padding: 8px 0;
 
-  @media (min-width: 768px) {
-    width: 100%;
-    left: 50%;
-    transform: translate(-50%, 0);
+    @media (min-width: 768px) {
+      width: 100%;
+      left: 50%;
+      transform: translate(-50%, 0);
 
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+    }
+    @media (max-width: 768px) {
+      right: 0;
+      text-align: right;
+    }
   }
-  @media (max-width: 768px) {
-    right: 0;
-    text-align: right;
+  .nav-link {
+    color: rgb(211, 229, 219);
+    &:hover {
+      color: white;
+      text-decoration: none;
+    }
   }
-}
-.nav-link {
-  color: rgb(211, 229, 219);
-  &:hover {
-    color: white;
-    text-decoration: none;
+  .hamburger {
+    display: block;
+    margin-right: 0;
+    margin-left: auto;
   }
-}
-.hamburger {
-  display: block;
-  margin-right: 0;
-  margin-left: auto;
-}
-.navbar-toggler.navbar-brand {
-  border: none;
-}
+  .navbar-toggler.navbar-brand {
+    border: none;
+  }
 
-.main-content {
-  margin-top: 50px;
-}
+  .main-content {
+    margin-top: 50px;
+  }
 
-.project {
-  margin-bottom: 1em;
-  cursor: pointer;
-  transition: 0.1s;
+  .project {
+    margin-bottom: 1em;
+    cursor: pointer;
+    transition: 0.1s;
 
-  &:hover {
+    &:hover {
+      background-color: #f5f5f5;
+      scale: 1.02;
+    }
+  }
+
+  .experience:hover {
     background-color: #f5f5f5;
-    scale: 1.02;
   }
-}
-
-.experience:hover {
-  background-color: #f5f5f5;
-}
-.experience h2 {
-  margin-bottom: 0;
-}
-.experience-button.collapsed:hover {
-  background-color: #f5f5f5;
-  animation: pop 0.25s linear;
-}
-@keyframes pop {
-  0% {
-    transform: scale(1);
+  .experience h2 {
+    margin-bottom: 0;
   }
-  50% {
-    transform: scale(1.02);
+  .experience-button.collapsed:hover {
+    background-color: #f5f5f5;
+    animation: pop 0.25s linear;
   }
-  100% {
-    transform: scale(1);
+  @keyframes pop {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.02);
+    }
+    100% {
+      transform: scale(1);
+    }
   }
 }
