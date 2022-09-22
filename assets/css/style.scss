@@ -4,6 +4,10 @@
 html {
   @import "{{ site.theme }}";
 
+  body {
+    background-color: #fbfffe;
+  }
+
   .navbar-custom {
     z-index: 100;
     padding: 8px 0;
