@@ -7,18 +7,11 @@ html {
   .navbar-custom {
     z-index: 100;
     padding: 8px 0;
+    text-align: right;
 
-    @media (min-width: 768px) {
-      width: 100%;
-      left: 50%;
-      transform: translate(-50%, 0);
-
+    @media (min-width: 992px) {
       border-bottom-left-radius: 5px;
       border-bottom-right-radius: 5px;
-    }
-    @media (max-width: 768px) {
-      right: 0;
-      text-align: right;
     }
   }
   .nav-link {
@@ -28,6 +21,19 @@ html {
       text-decoration: none;
     }
   }
+
+  .navbar-brand:hover {
+    text-decoration: none;
+  }
+
+  .navbar-nav {
+    @media (min-width: 992px) {
+      margin-right: 1em;
+    }
+    margin-right: 0.5em;
+    margin-left: auto;
+  }
+
   .hamburger {
     display: block;
     margin-right: 0;
@@ -38,7 +44,19 @@ html {
   }
 
   .main-content {
-    margin-top: 50px;
+    padding-top: 40px;
+  }
+
+  h2:before {
+    content: " ";
+    display: block;
+    visibility: hidden;
+    margin-top: -2em;
+    height: 2em;
+    @media (max-width: 992px) {
+      margin-top: -11em;
+      height: 11em;
+    }
   }
 
   .project {
