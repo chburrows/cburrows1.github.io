@@ -38,8 +38,10 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand" href="#"
-          >{{ page.title | default: site.title | default:
-          site.github.repository_name }}</a
+          ><h2>
+            {{ page.title | default: site.title | default:
+            site.github.repository_name }}
+          </h2></a
         >
         <button
           class="navbar-toggler hamburger"
@@ -58,21 +60,19 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0 text-right">
             <li class="nav-item">
-              <a class="nav-link nav-link-custom" href="#">Home</a>
+              <a class="nav-link" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-custom" href="#about-me">About Me</a>
+              <a class="nav-link" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-custom" href="#experiences"
-                >Experiences</a
-              >
+              <a class="nav-link" href="#experiences">Experiences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-custom" href="#projects">Projects</a>
+              <a class="nav-link" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link nav-link-custom" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
           </ul>
         </div>

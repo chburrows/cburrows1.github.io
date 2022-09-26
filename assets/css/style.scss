@@ -12,14 +12,10 @@ html {
     z-index: 100;
     padding: 8px 0;
     text-align: right;
-
-    @media (min-width: 992px) {
-      border-bottom-left-radius: 5px;
-      border-bottom-right-radius: 5px;
-    }
   }
   .nav-link {
     color: rgb(211, 229, 219);
+    font-size: 1.1rem;
     &:hover {
       color: white;
       text-decoration: none;
