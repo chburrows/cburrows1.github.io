@@ -21,9 +21,9 @@
 title: Portfolio
 email: burrowscameron310@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Cameron Burrows' Portfolio. This site is a collection of my work and projects.
+  I am a Junior Software Engineer and a recent Computer Science graduate from the University of Florida.
+  Please have a look at my portfolio and feel free to contact me with any questions. :)
 
   https://www.seanhalpin.design/
 baseurl: "/" # the subpath of your site, e.g. /blog

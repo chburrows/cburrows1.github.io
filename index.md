@@ -1,6 +1,9 @@
 ---
 layout: default
 title: Cameron Burrows
+permalink: /
+include_header: true
+script: navbar-mobile.js
 ---
 
 ## About Me
