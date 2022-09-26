@@ -43,6 +43,11 @@ html {
     border: none;
   }
 
+  .navbar-brand h2 {
+    padding: 0;
+    margin: 0;
+  }
+
   .main-content {
     padding-top: 40px;
   }
@@ -55,15 +60,14 @@ html {
       content: " ";
       display: block;
       visibility: hidden;
-      margin-top: -2em;
-      height: 2em;
+      margin-top: -2.5em;
+      height: 2.5em;
       @media (max-width: 992px) {
-        margin-top: -11em;
-        height: 11em;
+        margin-top: -12em;
+        height: 12em;
       }
     }
   }
-
   .project {
     z-index: 1;
     margin-bottom: 1em;
