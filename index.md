@@ -10,7 +10,7 @@ script: navbar-mobile.js
 
 Dedicated about page?
 
-I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg
 
 Also bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
 I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.

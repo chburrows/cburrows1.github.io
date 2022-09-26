@@ -5,8 +5,6 @@ permalink: /spotify-jobs
 script: job-scraper.js
 ---
 
-# Spotify Jobs
-
 ## Job Types
 
 <div style="border:1px solid black; margin-bottom: 1em; padding: 1em">
@@ -26,7 +24,16 @@ script: job-scraper.js
 
 ---
 
-<button type="button" class="btn btn-primary" id="searchBtn">Search</button>
+<button type="button" id="searchBtn" style="
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+">Search</button>
 
 ## Table
 
