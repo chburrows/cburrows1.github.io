@@ -8,7 +8,9 @@ script: navbar-mobile.js
 
 ## About Me
 
-Dedicated about page?
+[LinkedIn](https://www.linkedin.com/in/cameron-burrows-900a1721b){:target="\_blank"}
+|
+[Resume](/assets/files/resume.pdf){:target="\_blank"} add later
 
 I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg
 
