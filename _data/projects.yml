@@ -4,7 +4,7 @@
   link: https://github.com/cburrows1/Spotify-BPM-Playlist-Filter
   description: |
     * **Personal project** built using **Spotify API** in Python.
-    * This project solved a problem I found on spotify where user-created running playlists that claimed to be 180 BPM were inaccurate and contained music I don't like as much as my own playlists.
+    * This project solved a problem I found on Spotify where user-created running playlists that claimed to be 180 BPM were inaccurate and contained music I don't like as much as my own playlists.
     * I created a solution that accepts any Spotify playlist URLs, finds all songs in a certain BPM range, and adds them to a new playlist that I can listen to on my runs and workouts for a consistent tempo.
 
 - name: Algae Attack
@@ -36,7 +36,7 @@
   image: dlcg.png
   link: https://github.com/cburrows1/DLCG-fish-classifier
   description: |
-    * Developed a deep **learning image project** to classify invasive Florida fish images aiding in wildlife preservation.
+    * Developed a **deep learning image project** to classify invasive Florida fish images aiding in wildlife preservation.
     * **Curated a dataset** by scraping invasive and non-invasive fish lists and images from the internet, hand selecting the best images, and normalizing the images.
     * **Fine tuned a Keras ImageNet model** by first applying data augmentation to the training dataset, transfer learning on the model, and finally fine tuning the model.
     * **Tested** the model on a separate dataset to verify model effectiveness.
@@ -56,7 +56,7 @@
      I used this on my TV because I used a **Spotify client** on a Raspberry Pi to consume music through an A/V system, allowing me to listen to music and visualize it at the same time.
 
 - name: String Art Weaver
-  dates: Feb 2021 - March 2021
+  dates: Feb 2021 - Mar 2021
   image: weaver.png
   link: https://github.com/cburrows1/stringArtWeaver
   description: |
