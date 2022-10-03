@@ -1,22 +1,84 @@
-- name: Project one
-  image: algorythm.png
-  link: /projects/algorythm
+- name: Spotify BPM Playlist Filter
+  dates: Sept 2022
+  image: bpm.png
+  link: https://github.com/cburrows1/Spotify-BPM-Playlist-Filter
   description: |
-    welcome to the slideshow
-    This is an open-source slideshow, built with [deck.js](https://github.com/imakewebthings/deck.js), GitHub and [Jekyll](http://jekyllrb.com).
+    * **Personal project** built using **Spotify API** in Python.
+    * This project solved a problem I found on spotify where user-created running playlists that claimed to be 180 BPM were inaccurate and contained music I don't like as much as my own playlists.
+    * I created a solution that accepts any Spotify playlist URLs, finds all songs in a certain BPM range, and adds them to a new playlist that I can listen to on my runs and workouts for a consistent tempo.
 
-- name: Project two
-  image: algorythm.png
-  link: /projects/algorythm
+- name: Algae Attack
+  dates: Apr 2022
+  image: algae-attack.png
+  link: https://devpost.com/software/algae-attack
   description: |
-    Second slide with bullet points
-     * Hello world
-     * This is a slideshow
+    * Participated in a **hackathon** at Georgia Tech as a **full stack developer** (Robotech - Supporting Sustainability)
+    * Rapidly brainstormed, outlined, and developed a project with a team of my peers that aims to identify and mitigate the effects of harmful algae blooms throughout waterways in Florida,
+     supporting **sustainability** by requiring minimal oversight and materials to deploy.
+    * Utilized **MERN + Typescript** tech stack to create both an appealing interface to monitor deployed algae detectors, and to create a robust backend to facilitate the collection and **processing of ML data** to the frontend.
+    * Identified key algae predictive features from academic literature, found relevant datasets, preprocessed and **curated our own training/testing dataset**.
+     Finally **trained a Python Keras model** to recognize potential algae blooms from easily testable features in waterways.
 
-- name: Project three
-  image: algorythm.png
-  link: /projects/algorythm
+- name: Mixage
+  dates: Jan 2022 - May 2022
+  image: mixage.png
+  link: https://mixage.me/
   description: |
-    Second slide with bullet points
-     * Hello world2
-     * This is a slideshow2
+    * Mixage was my senior project at the University of Florida. I worked with a team of my peers and multiple faculty advisors to develop a **web application** that interfaces with the **Spotify API**
+     to predict the mood of a region based on recent listening history, and generate an image of this mood using **machine learning**.
+    * We used the Django framework in Python and **deployed to Heroku** to create the web app.
+    * Employed novel machine learning pipeline with custom dataset, and **Keras** and **GAN** architectures to predict moods and generate associated mood-based images for regions.
+    * The project allows users to view any region's predicted mood by navigating an embedded Google map, or log in to Spotify to add their data to the map contributing to the region's mood and view their own mood and data.
+    * I served as our **team leader** and focused mostly on **team organization**, the **software development lifecycle**, and **communication** while also developing the machine learning algorithms.
+
+- name: Invasive Fish Identifier Deep Learning
+  dates: Aug 2021 - Dec 2021
+  image: dlcg.png
+  link: https://github.com/cburrows1/DLCG-fish-classifier
+  description: |
+    * Developed a deep **learning image project** to classify invasive Florida fish images aiding in wildlife preservation.
+    * **Curated a dataset** by scraping invasive and non-invasive fish lists and images from the internet, hand selecting the best images, and normalizing the images.
+    * **Fine tuned a Keras ImageNet model** by first applying data augmentation to the training dataset, transfer learning on the model, and finally fine tuning the model.
+    * **Tested** the model on a separate dataset to verify model effectiveness.
+    * **Learned** dataset creation pipeline, deep learning concepts/algorithms, model training challenges, effective testing and analysis.
+
+- name: AlgoRythm
+  dates: June 2021 - Aug 2021
+  image: algorythm.png
+  link: https://github.com/cburrows1/AlgoRythm
+  description: |
+    * A real-time **music visualizer** built using Python with **performant programming** techniques.
+    * Uses an FFT of real-time audio samples to generate a visualization of a song's frequencies with **Spotify API integration** for song metadata in a clean interface.
+    * Highly customizable user interface and visualizer display with Windows media integration.
+    * The Windows application was developed in a group environment for school where I served as the **group leader** and developed the initial pitch.
+    * Following the conclusion of the class where this project was developed, I forked the project and continued development as a **personal project**.
+     I ported the original Windows project to a **Raspberry Pi** by listening on loopback devices and displaying through the HDMI port.
+     I used this on my TV because I used a **Spotify client** on a Raspberry Pi to consume music through an A/V system, allowing me to listen to music and visualize it at the same time.
+
+- name: String Art Weaver
+  dates: Feb 2021 - March 2021
+  image: weaver.png
+  link: https://github.com/cburrows1/stringArtWeaver
+  description: |
+    * **Personal project** written in **Python** that generates the instructions needed to represent a digital image physically with only pegs on a board and a single continuous string strung between them (many times).
+    * Accepts any **rectangular shaped canvas** and any quantity of pegs on board perimeter.
+    * The image and associated instructions are calculated by a **brute force search** of the image to find the single darkest path between the current peg and the next one,
+     eventually creating contrast between the darker areas with more string and the more sparse regions.
+    * This project satisfied my desire to combine a **creative physical artistic interest** with my **programming skills and interests**.
+
+- name: Lyric Generator NLP
+  dates: Jan 2021 - May 2021
+  image: NLP.png
+  link: https://github.com/cburrows1/NLP-SP21-LyricProject
+  description: |
+    * **Pair programmed** a **Lyric Generator** that collects a given artist's most popular songs and lyrics from the Genius Lyrics API using **Python**.
+    * Used **Natural Language Processing** techniques to synthesize original lyrics for that artist based on the collected songs.
+    * Runs as CLI program and evaluates the effectiveness of original lyrics using GLEU score.
+
+- name: Laundr
+  dates: Aug 2020 - Dec 2020
+  image: laundr.png
+  link: https://github.com/JaredHerbert11/Laundr-SWE
+  description: |
+    * Developed a web application for a client using **MERN** tech stack and fully deployed to **Heroku**.
+    * Employed **agile development** techniques and frequent **effective communication** to manage development of the project within our small team and with the client.

@@ -10,7 +10,15 @@
         aria-expanded="false"
         aria-controls="collapse{{include.type}}{{forloop.index}}"
       >
-        {{item.name}}
+        <img
+          src="{{item.icon}}"
+          class="experience-icon"
+          alt="{{item.company}} icon"
+        />
+        {{item.position}}
+        <br />
+        {{item.company}}
+        <div style="margin-left: auto">{{item.times}}</div>
       </button>
     </h2>
     <div

@@ -6,7 +6,10 @@
     tabindex="1"
   >
     <div class="card-body">
-      <h5 class="card-title">{{item.name}}</h5>
+      <h5 class="card-title">
+        {{item.name}}
+        <span style="float: right">{{item.dates}}</span>
+      </h5>
       <p class="card-text">{{item.description | markdownify}}</p>
     </div>
     <img

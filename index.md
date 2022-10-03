@@ -8,18 +8,21 @@ script: navbar-mobile.js
 
 ## About Me
 
-[LinkedIn](https://www.linkedin.com/in/cameron-burrows-900a1721b){:target="\_blank"}
+![Headshot](/assets/images/headshot.jpg){: .headshot}
+
+[Resume](/assets/files/resume.pdf){:target="\_blank"}
 |
-[Resume](/assets/files/resume.pdf){:target="\_blank"} add later
+[LinkedIn](https://www.linkedin.com/in/chburrows){:target="\_blank"}
+|
+[Github](https://github.com/cburrows1){:target="\_blank"}
+|
+[contact@chburrows.com](mailto:contact@chburrows.com){:target="\_blank"}
 
-I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg
+&nbsp;&nbsp;&nbsp;&nbsp;Hello, I am Cameron Burrows. I graduated from the University of Florida with a B.S. in Computer Science with a minor in Mathematics in August 2022 with a 3.79 GPA. I am seeking employment as a software engineer, particularly within web development. I am experienced with software development principles involving agile processes, the MERN tech stack, automated unit testing, iterative programming, and more featured below. In my projects and employment I like to write efficient and effective code with responsive designs.
 
-Also bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
-I am bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
+&nbsp;&nbsp;&nbsp;&nbsp;Professionally and personally I value: innovation, trust, passion, and connection. In my personal life I am constantly trying to find ways to use my skills as a programmer to enhance my life or solve problems I encounter. For instance I made a program to generate Spotify playlists with a specific tempo, and another application to visualize my Spotify music on my television. In the workplace I try to foster trust and connection between myself and my peers allowing for a more peaceful and productive workplace, particularly when I'm in a position of leadership. Both personally and professionally I always bring a lot of energy and passion to whatever I'm working on, whether that's grinding out a production ready web platform for a client or training for my first triathlon. I consider my strengths to include being: dedicated, adventurous, communicative, flexible, and logical. I strive to infuse these values and strengths in everything I'm involved in.
 
-Finally, bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh gdfjhg dfnsdf,gdgdf hgdfhg ujfdhjg.fdg fdg dfhghbdfhg.
-
-## Experiences
+## Employment
 
 {% include accordion.html type="experiences" %}
 
@@ -29,118 +32,10 @@ Finally, bsdfgjdff jsdjdfsjkh jdfjkg dfjh jgjdfh fd.fdhfg djghdf jhdfg, fdgdfh g
 
 ## Skills
 
-- Python
-- Java
-- React
-- Node
-- Express
+**Proficient:** React, Express, Node, Typescript, MongoDB, Web Development, Python, Java, REST API, OOP, Git
 
-## Contact
+**Knowledgeable:** SQL, C++, Deep Learning (Keras, Pytorch), Excel
 
-- [burrowscameron310@gmail.com](mailto:burrowscameron310@gmail.com)
+**Coursework**: Data Structures/Algorithms, Computer Organization, Intro to Software Engineering, Programming Language Concepts, Natural Language Processing, 3D Audio, Performant Programming in Python, Operating Systems, Deep Learning Computer Graphics, Intro to Database Systems, Network Fundamentals, Computer and Information Security
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require("./lang/" + l);
-  return true;
-};
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-- This is an unordered list following a header.
-
-##### Header 5
-
-1. This is an ordered list following a header.
-2. This is an ordered list following a header.
-3. This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-| :----------- | :---------------- | :---- |
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this
-
----
-
-### Here is an unordered list
-
-- Item foo
-- Item bar
-- Item baz
-- Item zip
-
-### And an ordered list
-
-1. Item one
-1. Item two
-1. Item three
-1. Item four
-
-### And a nested list
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Definition lists can be used with HTML syntax
-
-```html
-<!-- Made this part code block to remove warning -->
-<dl>
-  <dt>Name</dt>
-  <dd>Godzilla</dd>
-  <dt>Born</dt>
-  <dd>1952</dd>
-  <dt>Birthplace</dt>
-  <dd>Japan</dd>
-  <dt>Color</dt>
-  <dd>Green</dd>
-</dl>
-```
+## Thanks for stopping by!

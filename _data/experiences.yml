@@ -1,16 +1,41 @@
-- name: Experience one
+- position: Full Stack Developer - Remote
+  company: Take Action Global
+  times: Mar 2022 - Present
+  icon: /assets/images/icons/TAG.png
   description: |
-    welcome to the slideshow
-    This is an open-source slideshow, built with [deck.js](https://github.com/imakewebthings/deck.js), GitHub and [Jekyll](http://jekyllrb.com).
+    * **Oversaw a small team of agile software developers** where I delegated and reviewed web development tasks as the lead developer.
+    * Developed community based climate education LMS platform.
+    * Employed **MERN + Typescript** tech stack knowledge as a full stack engineer focused mainly on backend implementation.
+    * Constructed **detail oriented code-based solutions** satisfying the project requirements.
 
-- name: Experience two
+- position: Python Developer - Remote
+  company: Mindstamp
+  times: June 2021 - July 2021
+  icon: /assets/images/icons/mindstamp.png
   description: |
-    Second slide with bullet points
-     * Hello world
-     * This is a slideshow
+    * **Engineered a Python based web scraping program** to assist in identifying and contacting potential viable clients for their product.
+    * Interpreted changing project requirements and thoroughly tested throughout development before delivering an effective final product
 
-- name: Experience three
+- position: Java Consultant - Remote
+  company: Planet Payment
+  times: June 2021 - Aug 2021
+  icon: /assets/images/icons/planet.png
   description: |
-    Second slide with bullet points
-     * Hello world2
-     * This is a slideshow2
+    * Worked alongside members of a small cross-functional **agile development team** responsible for designing, building, testing, and maintaining web applications and services on the **Java platform**.
+    * Interacted frequently with **Spring framework**, Struts framework, **JUnit**, **Selenium**, **SQL**, and Excel.
+    * Extended **automated unit test** coverage
+
+- position: Tutor - Melbourne, FL
+  company: Subject Saviors
+  times: March 2019 - June 2021
+  icon: /assets/images/icons/subjectsaviors.png
+  description: |
+    * Conducted private personalized tutor lessons focused on math, SAT/ACT test prep, and Computer Science.
+
+- position: Instructor - Melbourne, FL
+  company: Codecraft Works
+  times: Dec 2016 - May 2021
+  icon: /assets/images/icons/ccw.png
+  description: |
+    * Instructed students ages 8-18 various programming topics such as **Python**, **web development**, Scratch, game development, **OOP**, and basic **machine learning**.
+    * **Mentored students** towards pursuing their computer science and educational goals, reinforcing these concepts in myself and developing **leadership skills**.
