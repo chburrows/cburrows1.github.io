@@ -2,7 +2,7 @@
   {% for item in site.data.projects %}
   <div
     class="card project"
-    onclick="window.location='{{item.link}}'"
+    onclick=" window.open('{{item.link}}', '_blank');"
     tabindex="1"
   >
     <div class="card-body">
