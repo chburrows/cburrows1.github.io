@@ -35,22 +35,8 @@
 
     {% if page.include_header %} {% include navbar.html %} {% endif %}
 
-    <main id="content" class="main-content" role="main">
-      {{ content }}
+    <main id="content" class="main-content" role="main">{{ content }}</main>
 
-      <footer class="site-footer">
-        {% if site.github.is_project_page %}
-        <span class="site-footer-owner"
-          ><a href="{{ site.github.repository_url }}"
-            >{{ site.github.repository_name }}</a
-          >
-          is maintained by
-          <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a
-          >.</span
-        >
-        {% endif %}
-      </footer>
-    </main>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
