@@ -4,6 +4,8 @@
 html {
   @import "{{ site.theme }}";
 
+  $mobileBreakpoint: 992px;
+
   body {
     background-color: #fbfffe;
   }
@@ -65,10 +67,35 @@ html {
       visibility: hidden;
       margin-top: -2.5em;
       height: 2.5em;
-      @media (max-width: 992px) {
+      @media (max-width: $mobileBreakpoint) {
         margin-top: -12em;
         height: 12em;
       }
+    }
+  }
+
+  .accordionDateOuter {
+    margin-left: auto;
+    @media (min-width: $mobileBreakpoint) {
+      display: block;
+    }
+    @media (max-width: $mobileBreakpoint) {
+      display: none;
+    }
+  }
+  .accordionDateInner {
+    margin-left: 0;
+    @media (min-width: $mobileBreakpoint) {
+      display: none;
+    }
+    @media (max-width: $mobileBreakpoint) {
+      display: block;
+    }
+  }
+
+  .projectDate {
+    @media (min-width: $mobileBreakpoint) {
+      float: right;
     }
   }
 
@@ -88,7 +115,12 @@ html {
   }
 
   .accordion-button::after {
-    margin-left: 1em;
+    @media (max-width: $mobileBreakpoint) {
+      margin-left: auto;
+    }
+    @media (min-width: $mobileBreakpoint) {
+      margin-left: 1em;
+    }
   }
   .experience-icon {
     width: 2em;

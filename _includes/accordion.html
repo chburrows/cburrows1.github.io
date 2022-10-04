@@ -15,10 +15,14 @@
           class="experience-icon"
           alt="{{item.company}} icon"
         />
-        {{item.position}}
-        <br />
-        {{item.company}}
-        <div style="margin-left: auto">{{item.times}}</div>
+        <div style="display: block; position: relative">
+          {{item.position}}
+          <br />
+          {{item.company}}
+          <div class="accordionDateInner">{{item.times}}</div>
+        </div>
+
+        <div class="accordionDateOuter">{{item.times}}</div>
       </button>
     </h2>
     <div
