@@ -8,14 +8,6 @@
     * Employed **MERN + Typescript** tech stack knowledge as a full stack engineer focused mainly on backend implementation.
     * Constructed **detail oriented code-based solutions** satisfying the project requirements.
 
-- position: Python Developer - Remote
-  company: Mindstamp
-  times: June 2021 - July 2021
-  icon: /assets/images/icons/mindstamp.png
-  description: |
-    * **Engineered a Python based web scraping program** to assist in identifying and contacting potential viable clients for their product.
-    * Interpreted changing project requirements and thoroughly tested throughout development before delivering an effective final product
-
 - position: Java Consultant - Remote
   company: Planet Payment
   times: June 2021 - Aug 2021
@@ -24,6 +16,14 @@
     * Worked alongside members of a small cross-functional **agile development team** responsible for designing, building, testing, and maintaining web applications and services on the **Java platform**.
     * Interacted frequently with **Spring framework**, Struts framework, **JUnit**, **Selenium**, **SQL**, and Excel.
     * Extended **automated unit test** coverage.
+
+- position: Python Developer - Remote
+  company: Mindstamp
+  times: June 2021 - July 2021
+  icon: /assets/images/icons/mindstamp.png
+  description: |
+    * **Engineered a Python based web scraping program** to assist in identifying and contacting potential viable clients for their product.
+    * Interpreted changing project requirements and thoroughly tested throughout development before delivering an effective final product
 
 - position: Tutor - Melbourne, FL
   company: Subject Saviors
