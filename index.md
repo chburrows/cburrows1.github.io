@@ -39,9 +39,9 @@ Professionally and personally I value: innovation, trust, passion, and connectio
 
 **Proficient:** React, Express, Node, Typescript, MongoDB, Web Development, Python, Java, REST API, OOP, Git
 
-**Knowledgeable:** SQL, C++, Deep Learning (Keras, Pytorch), Excel
+**Knowledgeable:** SQL, C++, Deep Learning, Keras, Pytorch
 
-**Coursework**: Data Structures/Algorithms, Computer Organization, Intro to Software Engineering, Programming Language Concepts, Natural Language Processing, 3D Audio, Performant Programming in Python, Operating Systems, Deep Learning Computer Graphics, Intro to Database Systems, Network Fundamentals, Computer and Information Security
+**Coursework:** Data Structures/Algorithms, Intro to Software Engineering, Programming Language Concepts, Natural Language Processing, Performant Programming in Python, Operating Systems, Deep Learning Computer Graphics, Intro to Database Systems
 
 ---
 
