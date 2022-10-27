@@ -37,7 +37,7 @@ Professionally and personally I value innovation, trust, passion, and connection
 
 ## Skills
 
-**Proficient:** React, Express, Node, Typescript, MongoDB, Web Development, Python, Java, REST API, OOP, Git
+**Proficient:** React, Express, Node, Typescript, MongoDB, Styled Components, Web Development, Python, Java, REST API, OOP, Git
 
 **Knowledgeable:** SQL, SCSS, C++, Deep Learning, Keras, Pytorch
 
