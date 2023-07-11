@@ -22,7 +22,7 @@
 - name: Mixage
   dates: Jan 2022 - May 2022
   image: mixage.png
-  link: https://mixage.me/
+  link: https://mixage.herokuapp.com
   description: |
     * Mixage was my senior project at the University of Florida. I worked with a team of my peers and multiple faculty advisors to develop a **web application** that interfaces with the **Spotify API**
      to predict the mood of a region based on recent listening history, and generate an image of this mood using **machine learning**.
