@@ -1,41 +1,62 @@
-- position: Full Stack Developer - Remote
+- position: Software Engineering Curriculum Developer - Melbourne, FL
+  company: Codecraft Works
+  times: Jun 2023 - Present
+  icon: /assets/images/icons/ccw.png
+  description: |
+    * Created and developed a comprehensive **C++** and **Python** curriculum for a software engineering course, resulting in an increase in participant satisfaction of 20%.
+    * Implemented **automated unit testing** and tooling for custom C++ and Python assignments, reducing grading time by 75% and improving assignment feedback turnaround to within 24 hours.
+    * Collaborated with course administrators to design and implement interactive coding exercises utilizing **Git** and **Unix**, leading to a 15% improvement in participant retention rates.
+
+- position: Full Stack Software Developer - Remote
   company: Take Action Global
-  times: Mar 2022 - Present
+  times: Mar 2022 - Mar 2023
   icon: /assets/images/icons/TAG.png
   description: |
-    * **Oversaw a small team of agile software developers** where I delegated and reviewed web development tasks as the lead developer.
-    * Developed community based climate education LMS platform.
-    * Employed **MERN + Typescript** tech stack knowledge as a full stack engineer focused mainly on backend implementation.
-    * Constructed **detail oriented code-based solutions** satisfying the project requirements.
+    * Developed and implemented advanced algorithms to optimize the performance of the climate education LMS platform, resulting in a 30% reduction in server response time.
+    * Utilized **effective communication** and **problem-solving** techniques to identify and address bottlenecks in the software development process, resulting in a 25% increase in team productivity.
+    * Architected **user authentication process**, resulting in a 98% auth success rate and improved the overall user experience.
+    * Collaborated with **cross-functional teams** to optimize the platform's performance, leading to a 20% decrease in page latency.
+    * Utilized **Typescript**, **MongoDB**, **Express.js**, **React.js**, and **Node.js** to develop a **full-stack** web application.
 
-- position: Java Consultant - Remote
-  company: Planet Payment
-  times: June 2021 - Aug 2021
+- position: Software Engineer - Melbourne, FL
+  company: Planet
+  times: May 2021 - Sep 2021
   icon: /assets/images/icons/planet.png
   description: |
-    * Worked alongside members of a small cross-functional **agile development team** responsible for designing, building, testing, and maintaining web applications and services on the **Java platform**.
-    * Interacted frequently with **Spring framework**, Struts framework, **JUnit**, **Selenium**, **SQL**, and Excel.
-    * Extended **automated unit test** coverage.
+    * Satisfied 75% of requirements for compliance with a Visa Uruguay agreement by updating and implementing new **backend** and frontend web features.
+    * Added 100+ new **unit tests** to the financial tech company's **CI/CD** pipeline, improving code quality by 10%.
+    * Collaborated with a **cross-functional agile development team** to deliver new features on time, contributing to a 30% increase in customer satisfaction.
+    * My responsibilites included working with: **Spring framework**, Struts framework, **JUnit**, **Selenium**, **SQL**, and Excel.
 
 - position: Python Developer - Remote
   company: Mindstamp
-  times: June 2021 - July 2021
+  times: May 2021 - July 2021
   icon: /assets/images/icons/mindstamp.png
   description: |
-    * **Engineered a Python based web scraping program** to assist in identifying and contacting potential viable clients for their product.
-    * Interpreted changing project requirements and thoroughly tested throughout development before delivering an effective final product
+    * Developed and deployed a **Python** web scraping application that successfully identified over 600 potential clients, resulting in a 20% increase in sales leads.
+    * Implemented **defensive programming** solutions and comprehensive **unit testing** to address changing product requirements and investigate edge cases, resulting in a 75% reduction in failures and a 15% increase in conversion rates.
 
 - position: Tutor - Melbourne, FL
   company: Subject Saviors
   times: Mar 2019 - June 2021
   icon: /assets/images/icons/subjectsaviors.png
   description: |
-    * Conducted private personalized tutor lessons focused on math, SAT/ACT test prep, and Computer Science.
+    * Conducted private personalized tutor lessons focused on **mathematics**, SAT/ACT test prep, and **Computer Science**.
 
-- position: Instructor - Melbourne, FL
+- position: Software Programming Instructor - Melbourne, FL
   company: Codecraft Works
   times: Dec 2016 - May 2021
   icon: /assets/images/icons/ccw.png
   description: |
     * Instructed students ages 8-18 various programming topics such as **Python**, **web development**, Scratch, game development, **OOP**, and basic **machine learning**.
     * **Mentored students** towards pursuing their computer science and educational goals, reinforcing these concepts in myself and developing **leadership skills**.
+
+- position: Software Engineering Intern - Melbourne, FL
+  company: Planet
+  times: May 2018 - Aug 2018
+  icon: /assets/images/icons/planet.png
+  description: |
+    * Collaborated within an **agile** development team, contributing to **backend** and frontend projects.
+    * Designed and developed **Python** and **Java** tools to enhance development efficiency and support web services.
+    * Demonstrated adaptability and **teamwork** in a professional software engineering environment.
+    * Utilized **Jira** to manage and track project progress of automated **unit testing** and **Selenium** tasks.
