@@ -1,11 +1,36 @@
+- name: Resupplanner
+  dates: May 2023 - Present
+  image: resupplanner.png
+  description: |
+    * Conceptualized, developed, and implemented a dynamic **mobile app** catering to the unique needs of backpackers. Recognizing the gap during my own 3-week **Appalachian Trail backpacking journey**, this solution streamlines food resupply planning.
+    * Designed an intuitive UI displaying nutritional details, enhancing the planning process utilizing **React Native** and **Typescript**.
+    * Engineered backend functionalities using **Express** and **Node**, seamlessly integrated with a **MongoDB** database for data management and enabled users to craft personalized shopping carts for multiple individuals, featuring a barcode scanning API.
+
+- name: Personal Portfolio
+  dates: Sep 2022 - Present
+  image: portfolio.png
+  description: |
+    * This very website you are looking at!
+    * Created a Github Pages portfolio site to demonstrate my experience and skills.
+    * Utilized efficient and well-organized programming structures to create an easily modifiable and extensible site.
+
 - name: Spotify BPM Playlist Filter
   dates: Sept 2022
   image: bpm.png
-  link: https://github.com/cburrows1/Spotify-BPM-Playlist-Filter
+  link: https://github.com/chburrows/Spotify-BPM-Playlist-Filter
   description: |
     * **Personal project** built using **Spotify API** in Python.
     * This project solved a problem I found on Spotify where user-created running playlists that claimed to be 180 BPM were inaccurate and contained music I don't like as much as my own playlists.
     * I created a solution that accepts any Spotify playlist URLs, finds all songs in a certain BPM range, and adds them to a new playlist that I can listen to on my runs and workouts for a consistent tempo.
+
+- name: Mixage
+  dates: Jan 2022 - May 2022
+  image: mixage.png
+  link: https://mixage.herokuapp.com/
+  description: |
+    * Led a **collaborative effort** with peers and faculty members to conceive and develop Mixage, a web application interfacing with Spotify for mood prediction based on listening history, employing **machine learning** to generate mood-inspired images.
+    * **Spearheaded deployment** and **rigorous testing** of the app, integrated Spotify and Google Maps APIs for global connectivity.
+    * Employed a **novel machine learning pipeline** with a custom dataset, created with **Keras** and **CGAN** architectures.
 
 - name: Algae Attack
   dates: Apr 2022
@@ -19,22 +44,10 @@
     * Identified key algae predictive features from academic literature, found relevant datasets, preprocessed and **curated our own training/testing dataset**.
      Finally **trained a Python Keras model** to recognize potential algae blooms from easily testable features in waterways.
 
-- name: Mixage
-  dates: Jan 2022 - May 2022
-  image: mixage.png
-  link: https://mixage.herokuapp.com
-  description: |
-    * Mixage was my senior project at the University of Florida. I worked with a team of my peers and multiple faculty advisors to develop a **web application** that interfaces with the **Spotify API**
-     to predict the mood of a region based on recent listening history, and generate an image of this mood using **machine learning**.
-    * We used the Django framework in Python and **deployed to Heroku** to create the web app.
-    * Employed novel machine learning pipeline with custom dataset, and **Keras** and **GAN** architectures to predict moods and generate associated mood-based images for regions.
-    * The project allows users to view any region's predicted mood by navigating an embedded Google map, or log in to Spotify to add their data to the map contributing to the region's mood and view their own mood and data.
-    * I served as our **team leader** and focused mostly on **team organization**, the **software development lifecycle**, and **communication** while also developing the machine learning algorithms.
-
 - name: Invasive Fish Identifier Deep Learning
   dates: Aug 2021 - Dec 2021
   image: dlcg.png
-  link: https://github.com/cburrows1/DLCG-fish-classifier
+  link: https://github.com/chburrows/DLCG-fish-classifier
   description: |
     * Developed a **deep learning image project** to classify invasive Florida fish images aiding in wildlife preservation.
     * **Curated a dataset** by scraping invasive and non-invasive fish lists and images from the internet, hand selecting the best images, and normalizing the images.
@@ -45,35 +58,30 @@
 - name: AlgoRythm
   dates: June 2021 - Aug 2021
   image: algorythm.png
-  link: https://github.com/cburrows1/AlgoRythm
+  link: https://github.com/chburrows/AlgoRythm
   description: |
-    * A real-time **music visualizer** built using Python with **performant programming** techniques.
-    * Uses an FFT of real-time audio samples to generate a visualization of a song's frequencies with **Spotify API integration** for song metadata in a clean interface.
-    * Highly customizable user interface and visualizer display with Windows media integration.
-    * The Windows application was developed in a group environment for school where I served as the **group leader** and developed the initial pitch.
-    * Following the conclusion of the class where this project was developed, I forked the project and continued development as a **personal project**.
-     I ported the original Windows project to a **Raspberry Pi** by listening on loopback devices and displaying through the HDMI port.
-     I used this on my TV because I used a **Spotify client** on a Raspberry Pi to consume music through an A/V system, allowing me to listen to music and visualize it at the same time.
+    * Delivered a stable, **cross-platform** system capable of accurately visualizing audio frequencies using a FFT computation, high-quality Pygame graphics, and **Spotify API** integration in Python by employing performant programming techniques.
+    * Continued development as a personal project, facilitated Raspberry Pi execution for concurrent music and video consumption.
+
+- name: Lyric Generator NLP
+  dates: Jan 2021 - May 2021
+  image: NLP.png
+  link: https://github.com/chburrows/NLP-SP21-LyricProject
+  description: |
+    * **Pair programmed** a **Lyric Generator** that collects a given artist's most popular songs and lyrics from the Genius Lyrics API using **Python**.
+    * Used **Natural Language Processing** techniques to synthesize original lyrics for that artist based on the collected songs.
+    * Runs as CLI program and evaluates the effectiveness of original lyrics using GLEU score.
 
 - name: String Art Weaver
   dates: Feb 2021 - Mar 2021
   image: weaver.png
-  link: https://github.com/cburrows1/stringArtWeaver
+  link: https://github.com/chburrows/stringArtWeaver
   description: |
     * **Personal project** written in **Python** that generates the instructions needed to represent a digital image physically with only pegs on a board and a single continuous string strung between them (many times).
     * Accepts any **rectangular shaped canvas** and any quantity of pegs on board perimeter.
     * The image and associated instructions are calculated by a **brute force search** of the image to find the single darkest path between the current peg and the next one,
      eventually creating contrast between the darker areas with more string and the more sparse regions.
     * This project satisfied my desire to combine a **creative physical artistic interest** with my **programming skills and interests**.
-
-- name: Lyric Generator NLP
-  dates: Jan 2021 - May 2021
-  image: NLP.png
-  link: https://github.com/cburrows1/NLP-SP21-LyricProject
-  description: |
-    * **Pair programmed** a **Lyric Generator** that collects a given artist's most popular songs and lyrics from the Genius Lyrics API using **Python**.
-    * Used **Natural Language Processing** techniques to synthesize original lyrics for that artist based on the collected songs.
-    * Runs as CLI program and evaluates the effectiveness of original lyrics using GLEU score.
 
 - name: Laundr
   dates: Aug 2020 - Dec 2020
