@@ -114,6 +114,15 @@ html {
     }
   }
 
+  .projecta {
+    color: black;
+    text-decoration: none !important;
+  }
+  .projecta a:hover {
+    color: black;
+    text-decoration: none !important;
+  }
+
   .accordion-button::after {
     @media (max-width: $mobileBreakpoint) {
       margin-left: auto;

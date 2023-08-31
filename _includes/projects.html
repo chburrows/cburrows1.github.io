@@ -1,22 +1,22 @@
 <div id="projects">
-  {% for item in site.data.projects %}
-  <div
-    class="card project"
-    onclick=" window.open('{{item.link}}', '_blank');"
-    tabindex="1"
-  >
-    <div class="card-body">
-      <h5 class="card-title">
-        {{item.name}}
-        <div class="projectDate">{{item.dates}}</div>
-      </h5>
-      <p class="card-text">{{item.description | markdownify}}</p>
+  {% for item in site.data.projects %} {% if item.link %}
+  <a class="projecta" href="{{item.link}}" target="_blank">
+    {% endif %}
+    <div class="card project" tabindex="1">
+      <div class="card-body">
+        <h5 class="card-title">
+          {{item.name}}
+          <div class="projectDate">{{item.dates}}</div>
+        </h5>
+        <p class="card-text">{{item.description | markdownify}}</p>
+      </div>
+      <img
+        src="/assets/images/projects/{{item.image}}"
+        class="card-img-bottom"
+        alt="{{item.name}} image"
+      />
     </div>
-    <img
-      src="/assets/images/projects/{{item.image}}"
-      class="card-img-bottom"
-      alt="{{item.name}} image"
-    />
-  </div>
-  {% endfor %}
+    {% if item.link %}
+  </a>
+  {% endif %} {% endfor %}
 </div>
